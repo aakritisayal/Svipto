@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lineardata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/background_3">
+
+
+            <RelativeLayout
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/arrow" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/back"
+                android:layout_toRightOf="@+id/back"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Personal Information"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/image"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:gravity="center|right"
+                        android:src="@drawable/app_manger" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Profile Image"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/listItems1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:paddingRight="40dp"
+                        android:text="email@gmail.com"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Email"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

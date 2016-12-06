@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linearAccount_TYP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle1"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Space Cleaner"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues1"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does Space Cleaner do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="Space Cleaner helps to remove unnecessary cache and junk data that is slowing down your phone performance. "
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What if my phone is running out of space?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="You can access all your videos, photographs and apps and uninstall/delete them when you do your housekeeping for your phone."
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle2"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Phone Boost"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues2"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="How does Phone Boost increase performance?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="Phone Boost provides you the option to stop other running apps to free up RAM and improve your phone performance"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="Can I choose the apps I want to stop?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="You can select the running apps that are not required to stop at the click of a button. In addition, you can check the temperature of your phone to make sure your phone is not overheated."
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle3"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="App Manager"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does this function do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="dghfgdghf dfhfhghfhgf ghjfhjghfghhjghj"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle4"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Battery Saver"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What are the issues that affect battery life?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="Your battery life can vary depending on the following: \n- Number of running apps \n- Background apps that are transmitting data or using GPS etc \n- Frequent charging or charging at the incorrect voltage"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="How can Battery Saver help to make the phone last longer with each charge?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="With the click of a button, we stop background apps and put them into hibernation so your phone processes less data and keep the battery running longer "
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems5"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle5"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="App Protect"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does App Protect do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="App Protect helps protect your privacy by preventing anybody else other than you from accessing your protected apps. This is very useful especially if you have apps with sensitive data (Confidential information, bank/credit card details, personal messages etc)."
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="How do I activate it?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="From the App Protect main page, choose the apps you want to protect and set a pattern/PIN code for them. (Do make sure you remember the code you set). Once that is activated, whenever you want to enter the protected app, you have to key in the pattern/PIN code"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="How to reset the password?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="blblblbllblblblb"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems6"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle6"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Weather"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does this function do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="The app uses your GPS function to detect your location and access the weather data from the web to display the current weather forecast."
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems7"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle7"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="My files"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does this function do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="My Files lets you access your phone’s mobile storage folder, Images, Videos, Audio, Documents &amp; Other files. This will allow you to manage your phone storage space and remove unwanted files/downloads. "
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems8"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle8"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Network Traffic"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does this function do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="The app keeps track of the amount of data each app uses to date. "
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+                <RelativeLayout
+                    android:id="@+id/listItems9"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ToggleButton
+                        android:id="@+id/idToggle9"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/toggle_button"
+                        android:checked="false"
+                        android:clickable="false"
+                        android:gravity="center|right"
+                        android:padding="10dp"
+                        android:textOff=""
+                        android:textOn="" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:paddingRight="40dp"
+                        android:text="Moboost House"
+                        android:textColor="#524445"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#372B28" />
+
+                <LinearLayout
+                    android:id="@+id/linearQues9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="What does this function do?"
+                            android:textColor="#0E918B"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="Our tech team constantly sources the Appstore/Playstore for the top grossing and recommended free apps/games for the month and present them to you for benefits. You will be able to link directly to the app page in the Google Playstore from the links in Moboost House. "
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+

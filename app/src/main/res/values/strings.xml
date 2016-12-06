@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+
+    <string name="application_name">Moboost</string>
+
+    <!-- All strings for MainActivity -->
+    <string name="main_share">Share</string>
+    
+    <string name="facebook_app_id">192549401136987</string>
+
+    <!--Banner id and Interstitial id-->
+    <string name="banner_home_footer">ca-app-pub-9480918527727973/6799620841</string>
+    <string name="interstitial_full_screen">ca-app-pub-9480918527727973/5183286843</string>
+    <string name="ad_unit_id">ca-app-pub-9480918527727973/8136753243</string>
+
+
+    <string name="action_password">Password Change</string>
+    <string name="draw_pattern">Draw Pattern to Unlock</string>
+    <string name="rate_us">Rate us</string>
+
+
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="check">Check</string>
+    <string name="please_check_internet">Please check your Internet Connection</string>
+
+    <string name="message_1">Install and open QuickPick to get 1.0000 GB of free cloud space</string>
+    <string name="cm_account">Sign Up For A CM Account</string>
+    <string name="get_2_gb">Get 2GB Private Cloud Space</string>
+    <string name="uninstall">UNINSTALL</string>
+    <string name="apk_files">APK FILES</string>
+    <string name="move">MOVE</string>
+    <string name="antivirus">ANTIVIRUS</string>
+    <string name="draining_fast">Draining fast,optimizing to save 5 mins.</string>
+    <string name="hybernate_app">Hybernate apps to boost battery</string>
+    <string name="recommended_app">Recommended to keep awake</string>
+    <string name="one_app">1 App</string>
+    <string name="recommended_to_keep_awake">Recommended to keep awake</string>
+    <string name="optimize">OPTIMIZE 1</string>
+    <string name="status_devicesConnected">Devices Connected:</string>
+    <string name="cpu_cooler">CPU COOLER</string>
+    <string name="cpu_temp">CPU temperature is OK</string>
+    <string name="cool_the_cpu">Cool the CPU further</string>
+    <string name="clean_running_apps">Clean 3 running apps</string>
+    <string name="cool_down">COOL DOWN</string>
+
+    <string name="sign_up">SIGN UP</string>
+    <string name="get_gb">GET 1,000GB</string>
+    <string name="clean_junk">Clean junk to free up space,boost speed and save battery life for your android.</string>
+
+    <string name="settings">SETTINGS</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="notification_toggle">Notification Toggle</string>
+    <string name="text">Text First</string>
+    <string name="notfication_settings">Nofification Settings</string>
+    <string name="i_swipe">iSWIPE</string>
+    <string name="i_swipe_settings">iSwipe Settings</string>
+    <string name="active_area">Active area position options</string>
+    <string name="floating_widget">Floating Widget</string>
+    <string name="floating_widget_settings">Floating Widget Settings</string>
+    <string name="magic_sweep_options">Magic Sweep Options</string>
+    <string name="information">Information</string>
+    <string name="btn_gallery_image">Image</string>
+    <string name="btn_gallery_video">Video</string>
+    <string name="empty"></string>
+
+    <string name="CM_Family">MB House</string>
+
+    <string name="phone_boost">PHONE BOOST</string>
+
+    <string name="junked_std">JUNKED STANDARD</string>
+
+
+    <string name="title_activity_about">About</string>
+    <string name="cannot_read_directory_s">Cannot read directory %s</string>
+    <string name="open_file_with_">Open %s with:</string>
+    <string name="size_s">Size: %s</string>
+    <string name="folder">%d items</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="remove_favourite">Remove favourite</string>
+    <string name="folder_empty">Empty folder</string>
+    <string name="delete">Delete</string>
+    <string name="_d_objects">%d objects</string>
+    <string name="delete_d_items_">Delete %d items?</string>
+    <string name="select_all">Select All</string>
+    <string name="rename">Rename</string>
+    <string name="share">Share</string>
+    <string name="_d_files_deleted">%d files deleted</string>
+    <string name="add_to_homescreen">Create shortcut</string>
+    <string name="add_to_homescreen_multiple">Create shortcuts</string>
+    <string name="shortcut_created">Shortcut added to homescreen</string>
+    <string name="root">Root</string>
+    <string name="cut">Cut</string>
+    <string name="paste_here">Paste here</string>
+    <string name="objects_cut_to_clipboard">Objects cut to clipboard</string>
+    <string name="files_pasted">Files pasted</string>
+    <string name="clipboard_is_empty">Clipboard is empty</string>
+    <string name="refresh">Refresh</string>
+    <string name="copy">Copy</string>
+    <string name="objects_copied_to_clipboard">Objects copied to clipboard</string>
+    <string name="create_folder">Create folder</string>
+    <string name="create">Create</string>
+    <string name="folder_created_successfully">Folder created successfully</string>
+    <string name="loading_">Loading…</string>
+    <string name="folder_could_not_be_created">Folder could not be created</string>
+    <string name="pasting_files_">Pasting files…</string>
+    <string name="downloads">Downloads</string>
+    <string name="music">Music</string>
+    <string name="pictures">Pictures</string>
+    <string name="movies">Movies</string>
+    <string name="dcim">DCIM</string>
+    <string name="credits">App developed by Michal Dabski www.michaldabski.com
+        \n
+        \n
+        In-app icons from www.iconsdb.com</string>
+    <string name="app_icon">App icon</string>
+    <string name="up">Up</string>
+    <string name="error">Error</string>
+    <string name="rename_file">Rename file</string>
+    <string name="rename_folder">Rename folder</string>
+    <string name="file_renamed">File renamed</string>
+    <string name="file_could_not_be_renamed_to_s">File could not be renamed to %s</string>
+    <string name="photos">Photos</string>
+    <string name="add_favourite">Add favourite</string>
+    <string name="other_apps">Other apps</string>
+    <string name="feedback">Feedback</string>
+    <string name="file_info">File info</string>
+    <string name="mime_type_s">MIME Type: %s</string>
+
+
+    <string name="label_advertisingStatus">Advertising Status</string>
+    <string name="status_advertising">Advertising</string>
+    <string name="status_notAdvertising">Not Advertising</string>
+    <string name="status_advDataTooLarge">Not Advertising. Advertisement is larger than 31 bytes.</string>
+    <string name="status_advFeatureUnsupported">Not Advertising. Advertising not supported.</string>
+    <string name="status_advInternalError">Not Advertising. Internal error occurred.</string>
+    <string name="status_advTooManyAdvertisers">Not Advertising. No advertising instance is available.</string>
+
+
+
+    <string name="status_errorWhenConnecting">An error occurred when connecting to a device. Error Code</string>
+
+    <string name="status_noLeAdv">BLE Advertising function is not supported.</string>
+    <string name="update">Update</string>
+    <string name="stop_advertising">Stop advertising</string>
+    <string name="please_enable_bluetooth">Please enable bluetooth</string>
+    <string name="ble_start_advertising">BLE Advertising started.</string>
+    <string name="cpu_temperature" format="false">CPU temperature: %.1f°C</string>
+
+    <string name="some_text">The next word is <font fgcolor="red">red</font> but that is all</string>
+
+
+
+
+
+        <string name="AboutUs"><font fgcolor="blue">Who we are?\n</font>Wewe Media has been in the mobile industry since its infancy stage and we have evolved from purely a performance marketing agency to a network with
+            over 20+ partners, serving up millions of ads impressions daily, providing quality conversions and leads for our valued partners in the mobile space and most recently, enhancing Android performance through our latest revolutionary Android booster MoBoost! \n\n
+          <font color="blue">What is MoBoost?\n</font>Moboost aims to become the top Android booster and help each Android phone maximise its lifespan and unlock its full potential!\n\n
+
+Moboost revolutionary technology helps boost your Android’s performance in the following way:\n
+&#8226; <font fgcolor="blue"> Battery Saving</font> – Make your Android last longer with each charge.\n
+&#8226; <font fgcolor="blue"> Storage Sorting</font> – Categorise your files and remove redundent files to save additional storage space.\n
+&#8226;<font fgcolor="blue">  Photo Manager </font>– Organise, and backup your photos in a click.\n
+&#8226; <font fgcolor="blue"> Moboost House</font> – Recommend the hottest Android apps and games in the Google Playstore now.\n
+&#8226; <font fgcolor="blue"> App Protector</font>– Choose to select apps where you do not want anyone else to access. We help you protect your valuable information.\n
+&#8226; <font fgcolor="blue"> Speed Booster </font>– Speed up your processor speed to surf the net and optimizes your apps faster. &#032; faster\n
+
+    </string>
+
+
+
+    <string name="app_protect_ques1"><b> Step 1: </b> From the App Protect main page, select the required pattern code to unlock your locked apps.\n
+<b>Step 2: </b> Under the allow access button, allow moboost to protect your apps\n
+
+<b>Step 3: </b> Select the apps you want to protect and you are good to go!\n\n Once that is activated, whenever you want to enter the protected app, you have to key in the pattern code.</string>
+
+
+    <string name="policy">This privacy policy has been compiled to better serve those who are concerned with how their Personally identifiable information PII is being used online. PII, as used in US privacy law and
+
+ information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our
+        privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.\n\n\n<font fgcolor="blue">What  information do we collect from the people that visit
+
+our MoBoost website or app?</font>\n&#8226; Personal Information. When ordering or registering on our site, as appropriate, you may be asked to enter your name,
+        email address or other details to help you with your experience.\n &#8226; Non-personal Information.  When you interact with our apps, we may collect non-personal information about you.
+        Non-personal information may include the type of your phone and technical information about your means of connection to our apps, such as the versions of phone
+        model and other similar information.\n\n\n<font fgcolor="blue">When do we collect information?\n</font>&#8226; We collect information from you when you register on our
+        site or enter information on our site.\n&#8226; Provide us with feedback on our products or services\n\n\n<font fgcolor="blue">How do we use your information?\n</font>We may use the information we collect from you when you
+        register, sign up for our newsletter, respond to a marketing communication, surf the website, or use our app in the following ways:\n\n&#8226; To personalize users experience and to allow us to deliver
+        the type of content and product offerings in which you are most interested.\n&#8226; To improve our website and app in order to better serve you.
+         \n&#8226; To allow us to better service you in responding to your customer service requests.\n&#8226; To send periodic emails regarding your order or other products and services.\n&#8226; To follow up with them after correspondence (live chat,
+        email or phone inquiries)\n\n\n<font fgcolor="blue">How do we protect visitor information?\n</font>We do not use vulnerability scanning and/or scanning to PCI standards.\n\nWe use regular Malware Scanning.\n\nYour personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit
+        information you supply is encrypted via Secure Socket Layer (SSL) technology.\n\nWe implement a variety of security measures when a user
+        enters, submits, or accesses their information to maintain the safety of your personal information.\n\n\n<font fgcolor="blue">Third-party disclosure</font>\nWe do not sell, trade, or otherwise transfer to outside parties
+            your personally identifiable information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety.\nHowever, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other ses.\n\n\n<font fgcolor="blue">Third-party links\n</font>Occasionally, at our discretion, we may include or offer third-party products or services on our website or app. These third-
+        party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.\n\n\n<font fgcolor="blue">California Online Privacy Protection Act</font>\nCalOPPA is the first state law in the nation to require commercial
+
+websites and online services to post a privacy policy. The lawsreach stretches well beyond California to require a person or company in the United States (and conceivably the world) that operates websites collecting personally identifiable information
+            from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals with whom it is being shared, and to comply with this policy. - See more at: http://consumercal.org/california-online-privacy- protection-act- caloppa/#sthash.0FdRbT51.dpuf\n\n<b>According to CalOPPA we agree to the following:</b>\nUsers can visit our site anonymously.
+        Once this privacy policy is created, we will add a link to it on our
+
+home page or as a minimum on the first significant page after entering our website.Our Privacy Policy link includes the word Privacy and can be easily be found on the page specified above.\n\nUsers will be notified of any privacy policy changes:
+        &#8226; On our Privacy Policy Page\nUsers are able to change their personal information:  \n
+        &#8226; By logging in to their account\n\n\n<font fgcolor="blue">If at any time you would like to unsubscribe from receiving future emails, you can email us at support@moboost.com</font>and we will promptly remove you from ALL correspondence.\n\n\nIf there are any questions regarding this privacy policy you may
+
+email us using the email address below.\n <font fgcolor="blue">support@moboost.com\n\n\n</font>
+    </string>
+
+
+    <!-- All Strings for applist -->
+
+
+    <!-- Change password activity -->
+    <string name="change_pass_tit">Change password</string>
+    <string name="change_pass_desc">Enter the new password\n4 or more digits is recommended</string>
+    <string name="change_pass_desc_confirmation">Confirm password</string>
+    <string name="change_pass_not_match">Passwords do not match</string>
+    <string name="change_pass_changed">Password successfully changed</string>
+    <string name="change_pass_not_changed">Error changing password</string>
+    <string name="change_pass_empty">Error: Empty password</string>
+    <string name="select_tit">Select apps to lock</string>
+
+    <!-- All strings for LockActivity -->
+    <string name="locker_footer_default">Enter password to unlock</string>
+    <string name="locker_enter_password">Enter password</string>
+    <string name="upper_ok">OK</string>
+    <string name="upper_back">BACK</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome_tit">Welcome to Locker!</string>
+    <string name="welcome_message">You need a password before you can lock apps.\nDo you want to setup a password now?</string>
+    <!-- END v1.07 Strings -->
+
+
+    <!-- BEGIN v1.08 Strings -->
+    <!-- This section represents Locker > Preferences -->
+    <string name="preferences_tit">Preferences</string>
+    <!-- The window title -->
+    <string name="main_preferences">Preferences</string>
+    <!-- The button in the main screen -->
+    <!-- clone of "locker_footer_default" -->
+    <string name="pref_def_lock_message">Enter password to unlock</string>
+    <string name="pref_tit_lock_message">Message</string>
+    <!-- Changed from the original. Re-translate -->
+    <string name="pref_desc_lock_message">This message will appear when an app is locked</string>
+    <string name="pref_dlgmsg_lock_message">You can use %s to represent the app name</string>
+    <!-- Keep it short! -->
+    <string name="pref_tit_start_boot">Start at boot</string>
+    <!-- Descriptions can be longer -->
+    <string name="pref_desc_start_boot">Start locking apps when your device starts</string>
+    <string name="pref_tit_relock_after_screenoff">Relock after screen off</string>
+    <string name="pref_desc_relock_after_screenoff">Ask for a password again after screen is turned off</string>
+    <string name="old_pref_tit_vibrate_password">Vibration</string>
+    <string name="old_pref_desc_vibrate_password">Vibrate when you press keys</string>
+    <string name="pref_tit_performance">Performance</string>
+    <string name="pref_desc_performance">Higher performance will be faster, but will consume more battery. Lower performance will be slower but saves battery.</string>
+    <string name="pref_list_perf_very_high">Very high</string>
+    <string name="pref_list_perf_high">High</string>
+    <string name="pref_list_perf_normal">Normal</string>
+    <string name="pref_list_perf_low">Low</string>
+    <string name="pref_list_perf_very_low">Powersave</string>
+    <string name="old_pref_tit_delay_status">Delay lock</string>
+    <string name="old_pref_desc_delay_status">When you enter the correct password, next password will be asked after a delay</string>
+    <string name="old_pref_tit_delay_time">Delay time</string>
+    <string name="old_pref_dlgmsg_delay_time">After this time the password will be asked again (Seconds)</string>
+    <string name="applist_lock_all">All</string>
+    <string name="applist_unlock_all">None</string>
+    <string name="main_rate">Rate</string>
+    <!-- END v1.08 Strings -->
+
+
+    <!-- BEGIN v2.0 Strings -->
+    <!-- For android 4.2 and below, the system will not kill Locker -->
+    <string name="pref_desc_show_notification">Show a notification while apps are locked</string>
+    <!-- Since Android 4.3, system kills app if it doesn't show a notification, we should warnt he users about this -->
+    <string name="notification_title">Locker is active</string>
+    <string name="notification_state_locked">Click here to disable the lock</string>
+    <!-- END v2.0 Strings -->
+
+
+    <!-- BEGIN v2.0.6 Strings -->
+    <!-- All pref_tit_xxx must be short (2 words max || length < 20) -->
+    <!-- pref_desc_xxx can be like 3 lines or more if neccesary -->
+    <!-- Preference categories (Keep short) -->
+    <string name="pref_tit_cat_general">General</string>
+    <string name="pref_tit_cat_notification">Notification</string>
+    <string name="pref_tit_cat_launcher">Start</string>
+    <!--  -->
+    <string name="old_pref_tit_dial_launch">Start with call</string>
+    <string name="old_pref_desc_dial_launch">When this option is enabled, you can access Locker by dialing #YOURPASSWORD\nThis means that if your password is 1111, you can dial #1111 to open Locker.</string>
+    <string name="pref_tit_hide_launcher_icon">Hide icon</string>
+    <string name="pref_desc_hide_launcher_icon">When this option is active, Locker will hide it\'s icon from the apps. You can remove shortcuts on your home screen manually (Requires reboot. Forces Start with call)</string>
+    <!-- Updated text for "Notification" -->
+    <string name="pref_tit_show_notification">Show notification</string>
+    <!-- Changelog -->
+    <string name="cl_title">What\'s New</string>
+    <string name="pref_tit_cat_about">About this app</string>
+    <!-- END v2.0.6 Strings -->
+
+
+    <!-- BEGIN v2.0.8 Strings -->
+    <!-- PASSWORD -->
+    <string name="password_change_tit">Change password</string>
+    <string name="password_change_head">Enter a new unlock password</string>
+    <string name="password_change_confirm">Enter the password again to confirm</string>
+    <string name="password_change_saved">Password changed successfully</string>
+    <string name="password_change_error">Error saving password</string>
+    <string name="password_change_not_match">Passwords do not match</string>
+    <string name="password_empty">Password cannot be empty</string>
+    <!-- PATTERN -->
+    <string name="pattern_change_tit">Change pattern</string>
+    <string name="pattern_detected">Pattern detected</string>
+    <string name="pattern_change_head">Draw a new unlock pattern</string>
+    <string name="pattern_change_confirm">Draw the pattern again to confirm</string>
+    <string name="pattern_change_saved">Pattern changed successfully</string>
+    <string name="pattern_change_error">Error saving pattern</string>
+    <string name="pattern_change_not_match">Patterns do not match</string>
+    <!--  -->
+    <string name="button_confirm">Confirm</string>
+    <string name="button_continue">Next</string>
+    <string name="button_back">Back</string>
+    <!-- Buttons have short text! (2 words or so) -->
+    <string name="main_button_set_password">Change password</string>
+    <string name="main_button_set_pattern">Change pattern</string>
+    <string name="pref_list_lock_type_password">Password</string>
+    <string name="pref_list_lock_type_pattern">Pattern</string>
+    <string name="pref_tit_lock_type">Lock Type</string>
+    <string name="pref_desc_lock_type">Currently: %s</string>
+    <!-- VersionChecker -->
+    <string name="vc_update">Update</string>
+    <string name="vc_exit">Exit</string>
+    <string name="vc_tit_new_version">Update</string>
+    <string name="vc_tit_unsupported">Sorry</string>
+    <string name="vc_msg_new_version">There is a new version available, do you want to update now?</string>
+    <string name="vc_msg_unsupported">The version you are using of this app is too old and needs to be updated. Please update the app to continue using it.</string>
+
+    <!-- Settings -->
+    <string name="pref_tit_cat_password">Password settings</string>
+    <string name="pref_tit_cat_pattern">Pattern settings</string>
+    <string name="pref_tit_delay_status">Short exit</string>
+    <string name="pref_desc_delay_status">You can exit an app and go back in the limit time without entering a password</string>
+    <string name="pref_tit_delay_time">Short exit time</string>
+    <!-- Seconds is important, not just "time" -->
+    <string name="pref_dlgmsg_delay_time">Enter the number of seconds after which the apps will be locked again</string>
+    <string name="pref_tit_orientation">Orientation</string>
+
+    <!-- Password specific settings -->
+    <string name="pref_tit_vibrate_password">Vibration</string>
+    <string name="pref_desc_vibrate_password">Vibrate when you press keys</string>
+
+    <!-- Pattern specific settings -->
+    <string name="pref_tit_vibrate_pattern">Vibration</string>
+    <string name="pref_desc_vibrate_pattern">Vibrate when you slide over the pattern</string>
+    <string name="pref_tit_pattern_stealth">Invisible mode</string>
+    <string name="pref_desc_pattern_stealth">The pattern will be invisible</string>
+    <string name="pref_tit_switch_buttons">Switch buttons</string>
+    <string name="pref_desc_switch_buttons">Change the position of the OK and Back buttons</string>
+    <string name="pref_list_orientation_portrait">Portrait</string>
+    <!-- TODO: Use android standards -->
+    <string name="pref_list_orientation_landscape">Landscape</string>
+    <string name="pref_list_orientation_auto_rotate">Auto-rotate</string>
+    <string name="pref_list_orientation_system">System setting</string>
+
+    <!-- Beta -->
+    <string name="pref_tit_temp_wifi_unlock_state">Stop with wifi</string>
+    <string name="pref_desc_temp_wifi_unlock_state">When you connect to a specific wifi network, (such as home), the lock automatically stops</string>
+    <string name="pref_tit_temp_wifi_ssid">SSID (Network name)</string>
+    <string name="pref_desc_temp_wifi_ssid">The name of the wifi network</string>
+    <string name="beta_tit">Beta</string>
+    <string name="beta_desc">This are experimental features which will be available in the future, but you can test them now.</string>
+
+    <!-- MainActivity -->
+    <string name="main_state_running">Running</string>
+    <string name="main_state_not_running">Not running</string>
+
+    <!-- More prefs -->
+    <string name="pref_tit_dial_launch">Start with call</string>
+    <string name="pref_desc_dial_launch">Access Locker by calling to a custom number.</string>
+    <string name="pref_tit_dial_launch_number">Number</string>
+    <string name="pref_desc_dial_launch_number">The number you have to call to start Locker (We recommend to start it with a #).</string>
+    <string name="vc_later">Later</string>
+
+    <!-- END v2.0.8 Strings -->
+
+
+    <!-- BEGIN v2.0.2 -->
+
+    <string name="main_no_password">You have not setup a password yet.\nDo you want to setup a password now?</string>
+    <string name="main_setup">Setup</string>
+    <string name="old_main_choose_lock_type">Choose Lock Type</string>
+    <string name="main_no_locked_apps">You have no apps locked.\nDo you want to add some apps now?</string>
+    <!-- END v2.0.2 -->
+
+
+    <!-- BEGIN v2.1.1 -->
+    <string name="pref_tit_password_expiry">Maximum time</string>
+    <string name="pref_desc_password_expiry">The time you have to enter the correct password</string>
+    <string name="pref_dlgmsg_password_expiry">Time is in seconds, 0 is unlimited</string>
+    <string name="pref_tit_max_password_retries">Maximum attempts</string>
+    <string name="pref_desc_max_password_retries">The number of attempts you have to enter the correct password</string>
+    <string name="pref_dlgmsg_max_password_retries">0 is unlimited</string>
+    <!-- END v2.1.1 -->
+
+
+    <!-- BEGIN v2.1.2 -->
+    <string name="pref_tit_pattern_color">Pattern color</string>
+    <string name="pref_desc_pattern_color">The color of the pattern circles</string>
+    <string name="pref_list_pattern_color_white">White</string>
+    <string name="pref_list_pattern_color_blue">Blue</string>
+    <string name="pref_list_pattern_color_green">Green</string>
+    <string name="pref_tit_lockactivity_background">Background</string>
+    <string name="pref_desc_lockactivity_background">Background image to be displayed while unlocking apps</string>
+    <string name="pref_tit_hide_notification_icon">Hide notification icon</string>
+    <string name="pref_desc_hide_notification_icon">This only hides the notification icon in the statusbar</string>
+
+    <!-- BEGIN 2203 -->
+    <string name="update_available">Update available</string>
+    <string name="update_needed">Update needed</string>
+    <string name="update_available_msg">There is a new update of this app available. The current version will stop working in %d days.</string>
+    <string name="update_needed_msg">This version is no longer supported. Please update to the newest version.</string>
+    <string name="update_button">Update</string>
+    <string name="update_button_cancel">Not now</string>
+
+    <!--  -->
+    <!-- See background_locker_green -->
+    <string name="background_locker_blue">Blue</string>
+    <string name="background_locker_dark_blue">Dark Blue</string>
+    <string name="background_locker_red">Red</string>
+    <string name="background_locker_purple">Purple</string>
+    <string name="background_locker_turquoise">Turquoise</string>
+    <string name="background_locker_orange">Orange</string>
+
+    <!-- BEGIN v2.1.2 Continuation -->
+    <string name="background_dialog_title">Change Background</string>
+    <string name="background_from_gallery">Gallery</string>
+    <string name="background_locker_green">Green</string>
+    <string name="background_changed">Background changed</string>
+
+    <!-- BEGIN v2205 -->
+    <string name="pref_tit_ads">Ads</string>
+    <string name="pref_desc_ads">If you like Locker, please support me by enabling ads<stirng></stirng></string>
+    <string name="pref_desc_ads_forced">You can currently not disable ads</string>
+    <!-- BEGIN v2300 -->
+    <!-- animations for the lock screen -->
+    <string name="pref_tit_cat_anim_show">Enter animation</string>
+    <string name="pref_tit_cat_anim_hide">Exit animation</string>
+    <string name="pref_tit_anim_millis">Duration</string>
+    <string name="pref_desc_anim_millis">Time in milliseconds for the animation</string>
+    <string name="pref_tit_anim_type">Type</string>
+    <string name="pref_desc_anim_type"></string>
+    <string name="pref_list_anim_fade">Fade</string>
+    <string name="pref_list_anim_slide_right">Slide Right</string>
+    <string name="pref_list_anim_slide_left">Slide left</string>
+    <string name="pref_list_anim_none">Disabled</string>
+    <!-- BEGIN v2302 -->
+    <string name="background_default">Default</string>
+    <!-- Pro stuff -->
+    <string name="pro_b_main">Pro</string>
+    <string name="pro_window_title">Pro features</string>
+    <!--  -->
+    <string name="pro_ft_tit">Pro features:</string>
+    <string name="pro_ft_bg">Custom Background image</string>
+    <string name="pro_ft_hide">Hide Locker application</string>
+    <string name="pro_ft_hide_notif">Hide notification</string>
+    <string name="pro_ft_pcolor">Change pattern color</string>
+    <string name="pro_ft_short_exit">Short exit</string>
+    <string name="pro_ft_anim">Animations</string>
+    <string name="pro_ft_more">More coming soon</string>
+    <string name="pro_header">Choose your plan:</string>
+    <string name="pro_tit_ads">Locker Ads</string>
+    <string name="pro_desc_ads">All pro features are available and ads are shown</string>
+    <string name="pro_tit_free">Locker Free</string>
+    <string name="pro_desc_free">No pro features are available and no ads are shown</string>
+    <!--  -->
+    <string name="pro_tit_paid">Locker Pro</string>
+    <string name="pro_desc_paid">All features are available and you will see no ads</string>
+    <!--  -->
+    <string name="pro_required">This is a pro feature. Do you want to enable Pro features for free?</string>
+    <string name="pro_tofree_tit">Free mode</string>
+    <string name="pro_tofree_msg">You will lose all pro features\nAre you sure you want to change to free mode?</string>
+    <string name="applist_tit_apps">Apps</string>
+    <string name="applist_tit_important">Important</string>
+    <string name="applist_tit_system">System</string>
+    <string name="applist_app_pkginstaller">App install/uninstall</string>
+    <string name="applist_app_dialer">Incoming call</string>
+    <string name="applist_app_sysui">Recent tasks</string>
+
+    <!-- BEGIN v2320 -->
+    <string name="nav_status">Lock</string>
+    <string name="nav_apps">Applications</string>
+    <string name="nav_change">Change lock</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_pro">Pro</string>
+    <string name="nav_test">Test</string>
+
+    <!--  -->
+    <string name="fragment_title_apps">Applications</string>
+    <string name="fragment_title_settings">Settings</string>
+    <string name="fragment_title_statistics">Statistics</string>
+    <string name="fragment_title_pro">Pro</string>
+    <string name="setup_new_lock">Setup new lock</string>
+    <!--  -->
+    <string name="pref_tit_pattern_hide_error">Hide error</string>
+    <string name="pref_desc_pattern_hide_error">Don\'t show the error when you enter a wrong pattern</string>
+    <string name="pref_tit_pattern_size">Pattern size</string>
+    <string name="pref_desc_pattern_size">The number of rows and columns that the pattern has</string>
+    <!--  -->
+    <string name="locker_invalid_password">Wrong password</string>
+    <string name="locker_invalid_pattern">Wrong pattern</string>
+
+    <!-- Recovery dialog -->
+    <string name="recovery_tit">Recovery code</string>
+    <string name="recovery_dlgmsg">Your recovery code is %s\nIt\'s important that you send it to yourself (just in case you forget your password). You can find this code back in settings.</string>
+    <string name="recovery_code_send_button">Send</string>
+    <!-- Recovery preference -->
+    <string name="pref_tit_recovery_code">Recovery code</string>
+    <string name="pref_desc_recovery_code">Current code: %s</string>
+    <string name="pref_dlgmsg_recovery_code">Your current code is %s</string>
+    <!-- Recovery intent chooser -->
+    <string name="recovery_intent_tit">Send recovery code</string>
+    <string name="recovery_intent_message">Your Twinone App Locker recovery code.\nTo be able to access your device again and reset your password, open the dialer and call the following number: %s</string>
+    <!-- Da menu -->
+    <string name="apps_menu_sort">Sort</string>
+    <string name="apps_menu_lock_all">Lock all</string>
+    <string name="apps_menu_unlock_all">Unlock all</string>
+    <string name="apps_menu_search">Search</string>
+    <string name="apps_menu_search_hint">Search apps</string>
+
+    <!-- Example: WhatsApp locked -->
+    <string name="apps_toast_locked_single">%s locked</string>
+    <string name="apps_toast_locked_all">All apps locked</string>
+    <string name="apps_toast_unlocked_single">%s unlocked</string>
+    <string name="apps_toast_unlocked_all">All apps unlocked</string>
+
+    <!-- BEGIN v2332 -->
+    <string name="nav_b_share">Share</string>
+    <string name="nav_b_rate">Rate</string>
+    <string name="lib_share_dlg_tit">Share Locker</string>
+    <string name="lib_share_dlg_msg">If you like this app, consider helping improve it by sharing it with your friends.</string>
+    <!-- May be used for twitter -->
+    <string name="share_promo_text">Check out Twinone App Locker, the free app that protects your privacy and apps. https://play.google.com/store/apps/details?id=com.twinone.locker</string>
+
+    <!-- BEGIN v2335 -->
+    <string name="share_dlg_never">Never</string>
+    <string name="share_dlg_later">Later</string>
+
+    <!-- Androilib strings -->
+    <string name="lib_rate_dlg_tit">Rate our app</string>
+    <string name="lib_rate_dlg_msg">Please help us improve and add new features by leaving a positive review on Google Play</string>
+    <!--  -->
+    <string name="lib_share_never">No thanks</string>
+    <string name="lib_share_later">Later</string>
+
+
+    <string name="action_clean">Clean</string>
+    <string name="action_rescan">Rescan</string>
+    <string name="action_sort_by_name">Sort by name</string>
+    <string name="action_sort_by_size">Sort by size</string>
+
+    <!-- Apps list header -->
+    <string name="apps_list_header_title">Device memory</string>
+    <string name="apps_list_header_used_prefix">Used</string>
+    <string name="apps_list_header_cache_prefix">Cache</string>
+    <string name="apps_list_header_free_prefix">Free</string>
+    <string name="apps_list_header_footer">App cache usage</string>
+    <string name="apps_list_header_memory"><xliff:g id="memory">%1$s</xliff:g></string>
+
+    <!-- Empty list view -->
+    <string name="empty_cache">Cache is empty.</string>
+    <string name="no_such_app">No such application.</string>
+
+    <!-- Progress bar -->
+    <string name="scanning">Scanning…</string>
+    <string name="scanning_m_of_n">Scanning %1$d/%2$d</string>
+
+    <!-- Progress dialog -->
+    <string name="cleaning_cache">Cleaning cache</string>
+    <string name="cleaning_in_progress">Cleaning in progress…</string>
+
+    <!-- Toasts -->
+    <string name="cleaned">Cache cleaned</string>
+    <string name="toast_could_not_clean">Could not clean the cache</string>
+    <string name="toast_could_not_clean_reason">Could not clean the cache: %1$s</string>
+
+    <!-- Settings -->
+    <!--<string name="settings">Settings</string>-->
+    <!--<string name="main_preferences">Main preferences</string>-->
+    <string name="about">About</string>
+
+    <!-- Clean on app startup preference -->
+    <string name="clean_on_app_startup">Clean on app startup</string>
+    <string name="clean_on_app_startup_summary">Automatically clean cache on application startup</string>
+    <string name="clean_on_app_startup_key" translatable="false">clean_on_app_startup</string>
+
+    <!-- Exit after clean up -->
+    <string name="exit_after_clean">Exit after clean up</string>
+    <string name="exit_after_clean_summary">Exit after Clean button is clicked and clean up is completed</string>
+    <string name="exit_after_clean_key" translatable="false">exit_after_clean</string>
+
+    <!-- Clean on system startup preference -->
+    <string name="clean_on_system_startup">Clean on system startup</string>
+    <string name="clean_on_system_startup_summary">Automatically clean cache on system startup</string>
+    <string name="clean_on_system_startup_key" translatable="false">clean_on_device_startup</string>
+
+    <!-- About -->
+    <string name="about_app">About Cache Cleaner</string>
+    <string name="author">Author</string>
+    <string name="version_number">Version number</string>
+    <string name="version_number_unknown">Unknown</string>
+    <string name="open_source_licences">Open source licences</string>
+    <string name="special_thanks">Special thanks</string>
+    <string name="samuels_graphics" translatable="false">Samuel\'s Graphics</string>
+    <string name="samuels_graphics_desc">Icon and Play Store banner design</string>
+
+    <!-- 'Sort by' preference -->
+    <string name="sort_by_key" translatable="false">sort_by</string>
+
+    <!-- Rationales -->
+    <string name="rationale_title">Insufficient permissions</string>
+    <string name="rationale_storage">Storage permission is needed to clean external cache.</string>
+
+
+    <string name="app_size_b">%1$.2f B</string>
+    <string name="app_size_kib">%1$.2f KB</string>
+    <string name="app_size_mib">%1$.2f MB</string>
+    <string name="app_size_gib">%1$.2f GB</string>
+
+            <!--Weather-->
+
+
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="later">Later</string>
+
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+
+    <string name="last_update">Last update:\n%s</string>
+    <string name="last_update_widget">\nLast update: %s</string>
+
+    <string name="search_title">Search for city</string>
+
+    <string name="downloading_data">Downloading your data ...</string>
+    <string name="getting_location">Getting your location ...</string>
+
+    <string name="error_dateFormat">DATE FORMAT ERROR</string>
+
+    <string name="setting_dateFormat">Date Format</string>
+    <string name="setting_dateFormatCustom">Custom Date Format</string>
+    <string name="setting_dateFormatCustom_summary">Provide the custom SimpleDateFormat string to be used</string>
+    <string name="setting_lengthUnits">Length units</string>
+    <string name="setting_speedUnits">Speed units</string>
+    <string name="setting_tempUnits">Temperature units</string>
+    <string name="setting_pressureUnits">Pressure units</string>
+    <string name="setting_darkTheme">Dark theme</string>
+    <string name="setting_auto_detect_location">Detect Location</string>
+    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>
+    <string name="setting_refreshInterval">Background refresh interval</string>
+    <string name="setting_unit_mps">Meters per second (m/s)</string>
+    <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+    <string name="setting_unit_mph">Miles per hour (mph)</string>
+    <string name="setting_wind_direction_format">Wind direction format</string>
+    <string name="settings_none">None</string>
+    <string name="setting_apiKey">API key</string>
+    <string name="setting_apiKey_summary">Custom API key for OpenWeatherMap queries</string>
+
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeters (mm)</string>
+    <string name="setting_unit_in">Inches (in)</string>
+
+    <string name="setting_unit_hpa">hPa</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+
+    <string name="speed_unit_mps">m/s</string>
+    <string name="speed_unit_kph">kph</string>
+    <string name="speed_unit_mph">mph</string>
+
+    <string name="wind_direction_format_none">No indication</string>
+    <string name="wind_direction_format_arrows">Arrows</string>
+    <string name="wind_direction_format_abbreviations">Abbreviations</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="msg_err_parsing_json">Error parsing JSON.</string>
+    <string name="msg_connection_problem">There is a problem with your internet connection.</string>
+    <string name="msg_connection_not_available">Connection not available.</string>
+    <string name="msg_city_not_found">Specified city is not found.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">Too many requests. Please try again.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s°%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s°%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nWind: %3$s %4$s\nPressure: %5$s %6$s\nHumidity: %7$s %%\n</string>
+
+
+
+</resources>

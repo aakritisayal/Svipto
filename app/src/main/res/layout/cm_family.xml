@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/top_bg">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/back"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/arrow"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CM_Family"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/back"
+                android:layout_toEndOf="@+id/back" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/round_backround"
+            android:padding="15dp">
+            <ImageView
+                android:id="@+id/round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google"/>
+
+            <TextView
+                android:id="@+id/txtCmLocker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Moboost Locker"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/round" />
+            <Button
+                android:id="@+id/boost"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="20dp"
+                android:background="#0E918B"
+                android:fontFamily="sans-serif-medium"
+                android:text="BOOST"
+                android:layout_alignParentRight="true"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+        </RelativeLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearCmFamily"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/round1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/cm_family_app"/>
+
+                <TextView
+                    android:id="@+id/appName"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/round1"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:text="5miles: Local, Buy and Sell"/>
+                <Button
+                    android:id="@+id/download"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:background="#0E918B"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Download"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_below="@+id/download"
+                    android:layout_toRightOf="@+id/round1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toStartOf="@+id/download" />
+            </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#666666"
+                    android:layout_height="0.5dp"/>
+            </LinearLayout>
+
+            <com.google.android.gms.ads.NativeExpressAdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="360x100"
+                ads:adUnitId="@string/ad_unit_id">
+            </com.google.android.gms.ads.NativeExpressAdView>
+            <View
+                android:layout_width="match_parent"
+                android:background="#666666"
+                android:layout_height="0.5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/round2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/cm_family_app"/>
+
+                    <TextView
+                        android:id="@+id/appName2"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/round2"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="normal"
+                        android:text="5miles: Local, Buy and Sell"/>
+                    <Button
+                        android:id="@+id/download2"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:background="#0E918B"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Download"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@+id/download2"
+                        android:layout_toRightOf="@+id/round2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toStartOf="@+id/download2" />
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#666666"
+                    android:layout_height="0.5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/round3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/cm_family_app"/>
+
+                    <TextView
+                        android:id="@+id/appName3"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/round3"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="normal"
+                        android:text="5miles: Local, Buy and Sell"/>
+                    <Button
+                        android:id="@+id/download3"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:background="#0E918B"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Download"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@+id/download3"
+                        android:layout_toRightOf="@+id/round3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toStartOf="@+id/download3" />
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#666666"
+                    android:layout_height="0.5dp"/>
+            </LinearLayout>
+
+
+            <com.google.android.gms.ads.NativeExpressAdView
+                android:id="@+id/adView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="360x100"
+                ads:adUnitId="@string/ad_unit_id">
+            </com.google.android.gms.ads.NativeExpressAdView>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#666666"
+                android:layout_height="0.5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/round4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/cm_family_app"/>
+
+                    <TextView
+                        android:id="@+id/appName4"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/round4"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="normal"
+                        android:text="5miles: Local, Buy and Sell"/>
+                    <Button
+                        android:id="@+id/download4"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:background="#0E918B"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Download"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@+id/download4"
+                        android:layout_toRightOf="@+id/round4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toStartOf="@+id/download4" />
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#666666"
+                    android:layout_height="0.5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/round5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/cm_family_app"/>
+
+                    <TextView
+                        android:id="@+id/appName5"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/round5"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="normal"
+                        android:text="5miles: Local, Buy and Sell"/>
+                    <Button
+                        android:id="@+id/download5"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:background="#0E918B"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Download"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@+id/download5"
+                        android:layout_toRightOf="@+id/round5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toStartOf="@+id/download5" />
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#666666"
+                    android:layout_height="0.5dp"/>
+            </LinearLayout>
+
+
+            <!--<com.google.android.gms.ads.AdView-->
+                <!--android:id="@+id/adView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="ca-app-pub-9480918527727973/6799620841" />-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

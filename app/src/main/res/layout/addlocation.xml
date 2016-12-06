@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/background_3">
+
+        <RelativeLayout
+
+            android:id="@+id/relativeLayout5"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:src="@drawable/arrow" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txt_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/relativeLayout5"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:text="ADD LOCATION"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+
+        <RelativeLayout
+
+            android:id="@+id/relativeUpvIDEOS"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:visibility="gone">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:src="@drawable/ic_navigate_up" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:background="@drawable/search_field"
+        android:text=" "
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"
+        android:hint="Enter city or location"
+        android:singleLine="true"
+        android:selectAllOnFocus="true">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#0E918B"
+        android:fontFamily="sans-serif-medium"
+        android:text="DONE"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

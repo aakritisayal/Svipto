@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lineardata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background_3">
+
+                <RelativeLayout
+
+                    android:id="@+id/relativeLayout5"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:src="@drawable/arrow" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/txt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/relativeLayout5"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_vertical"
+                    android:text="MY PHOTOS"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+
+                    android:id="@+id/relativeUp"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true">
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:src="@drawable/ic_navigate_up" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/relativeUpvIDEOS"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone">
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:src="@drawable/ic_navigate_up" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <ViewFlipper
+                android:id="@+id/fragment_create_gallery_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ListView
+                    android:id="@+id/fragment_create_gallery_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:dividerHeight="0.5dp"
+                    android:drawSelectorOnTop="false"
+                    android:listSelector="@android:color/transparent"
+                    android:longClickable="false"
+                    android:overScrollFooter="@android:color/transparent"
+                    android:smoothScrollbar="true" />
+
+                <GridView
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:columnWidth="70dp"
+                    android:horizontalSpacing="3dp"
+                    android:layoutMode="opticalBounds"
+                    android:listSelector="@android:color/transparent"
+                    android:longClickable="false"
+                    android:numColumns="auto_fit"
+                    android:smoothScrollbar="true"
+                    android:stretchMode="spacingWidthUniform"
+                    android:verticalSpacing="3dp"
+                    android:visibility="visible" />
+            </ViewFlipper>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:visibility="visible">
+
+
+        <Button
+            android:id="@+id/btnPhoneBoost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#0E918B"
+            android:fontFamily="sans-serif-medium"
+            android:text="DELETE"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

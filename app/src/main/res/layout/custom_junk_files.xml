@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/id_linear"
+        android:background="@drawable/round_backround"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/app_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/ic_other_apps" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="APP NAME"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical">
+
+            <TextView
+                 android:id="@+id/cache_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#d9d9d9"
+                android:gravity="center"
+                android:text="44.0MB"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/check_junk"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

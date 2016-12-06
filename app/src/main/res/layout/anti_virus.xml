@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/background_3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/idHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/arrow" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="ANTIVIRUS"
+                    android:textColor="#ffffff"
+                    android:textSize="26sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/idHead"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Virus not found"
+                android:textColor="#00E476"
+                android:textSize="45sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/idHead"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="All Safe"
+            android:textColor="#00E476"
+            android:textSize="45sp"
+            android:textStyle="normal" />
+
+
+
+        <LinearLayout
+            android:id="@+id/otherViews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_backround"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="Found 6 big files using 400 MB"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="Raroly used big files are using space"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/round_backround"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:text="IGNORE"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            android:fontFamily="sans-serif-medium"
+                            android:textStyle="normal"
+                            android:layout_marginRight="5dp"
+                            android:background="#D0D0D0"
+                            android:layout_gravity="center"
+                            android:layout_height="35dp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:text="PROTECT"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            android:fontFamily="sans-serif-medium"
+                            android:textStyle="normal"
+                            android:background="#C20000"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="35dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/round_backround"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="MORE THAN 4 apps with privacy issue"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/round"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/round"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/round"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/round"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/round"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="Raroly used big files are using space"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text="Tap top protect your text and photos"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_backround"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:text="IGNORE"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:layout_marginRight="5dp"
+                        android:background="#D0D0D0"
+                        android:layout_gravity="center"
+                        android:layout_height="35dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:text="PROTECT"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:background="#C20000"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="35dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

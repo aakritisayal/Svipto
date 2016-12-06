@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/round1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cm_family_app"/>
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/round1"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:text="5miles: Local, Buy and Sell"/>
+        <Button
+            android:id="@+id/download"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="#0E918B"
+            android:fontFamily="sans-serif-medium"
+            android:text="Download"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/download"
+            android:layout_toRightOf="@+id/round1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@+id/download" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#666666"
+        android:layout_height="0.5dp"/>
+
+</LinearLayout>

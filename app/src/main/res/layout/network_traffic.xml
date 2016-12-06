@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/background_1">
+
+            <LinearLayout
+                android:id="@+id/idHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/arrow" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="NETWORK TRAFFIC"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/battery"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/network" />
+
+            <TextView
+                android:id="@+id/txtCurrentNetwork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/battery"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_backround"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text="Approximate data used by apps"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/id_linear"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_backround"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/audio" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="What is using my data?"
+                        android:textColor="#000000"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="Insatall manager to check"
+                        android:textSize="14sp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:text="MONITOR"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:background="#0E918B"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

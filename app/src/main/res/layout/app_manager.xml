@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <!--<ScrollView-->
+            <!--android:id="@+id/scroll"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@drawable/background_3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/idHead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/back"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:gravity="center_vertical"
+                                android:src="@drawable/arrow" />
+
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="APP MANAGER"
+                            android:textColor="#ffffff"
+                            android:textSize="25sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:id="@+id/linear1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:src="@drawable/junk_files_w"/>
+
+                            <TextView
+                                android:id="@+id/txtUninsatll"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical"
+                                android:text="@string/uninstall"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:src="@drawable/my_files_w"/>
+
+                            <TextView
+                                android:id="@+id/txt_apk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical"
+                                android:text="@string/apk_files"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:src="@drawable/file_manager_w"/>
+
+                            <TextView
+                                android:id="@+id/txt_move"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical"
+                                android:text="@string/move"
+                                android:textColor="#ffffff"
+                                android:layout_marginTop="10dp"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/idHead"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:text="Speed up games by 20%"
+                        android:textColor="#ffffff"
+                        android:textSize="32sp"
+                        android:textStyle="normal" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center_vertical"
+                                android:text="3 games can be boost"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="5dp"
+                                android:background="#0E918B"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="BOOST"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v4.view.ViewPager>
+
+
+            </LinearLayout>
+        <!--</ScrollView>-->
+
+
+
+
+
+
+</RelativeLayout>

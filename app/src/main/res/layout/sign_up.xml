@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/background_1"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="20dp"
+                        android:orientation="horizontal">
+
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="20dp"-->
+                            <!--android:layout_height="20dp"-->
+                            <!--android:src="@drawable/arrow"-->
+                            <!--android:gravity="center_vertical"-->
+                            <!--android:id="@+id/back"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:layout_alignParentLeft="true"-->
+                            <!--android:layout_alignParentStart="true" />-->
+
+                        <TextView
+                            android:id="@+id/id_txtSign_up"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:text="SIGN UP"
+                            android:textColor="#ffffff"
+                            android:textSize="25sp"
+                            android:textStyle="normal"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/back"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toEndOf="@+id/back" />
+
+                        <Button
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:background="#0E918B"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="LOG IN"
+                            android:textColor="#ffffff"
+                            android:textSize="16sp"
+                            android:textStyle="normal"
+                            android:id="@+id/id_login" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="90dp"
+                    android:src="@drawable/sign_activity" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="sans-serif"
+                android:visibility="gone"
+                android:text="@string/cm_account"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/get_2_gb"
+                android:textColor="#000000"
+                android:visibility="gone"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/idFacebook"
+                        android:layout_width="match_parent"
+                        android:text="SIGN UP WITH FACEBOOK"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:background="#3366CF"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+
+                    <Button
+                        android:id="@+id/id_google"
+                        android:layout_width="match_parent"
+                        android:text="SIGN UP WITH GOOGLE+"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:background="#C20000"
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:text="SIGN UP WITH EMAIL"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:background="#0E918B"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_login_email" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

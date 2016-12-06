@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1CBBB4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_bottom_line">#bdbdbd</color>
+    <color name="accent_color">#1CBBB4</color>
+    <color name="accent_color_light">#0E918B</color>
+    <color name="color_window_background">#E5E5E5</color>
+    <color name="lock_status_alpha">#1fffffff</color>
+    <color name="colorBackground">@android:color/transparent</color>
+
+
+    <color name="apps_list_system_memory">#ff384248</color>
+    <color name="apps_list_cache_memory">#ff009587</color>
+    <color name="apps_list_free_memory">#ffced7db</color>
+    <color name="dotted_line">#8a000000</color>
+
+
+
+    <color name="main_button_background">#72333333</color>
+    <color name="main_activity_background">#eeeeee</color>
+    <color name="main_tv_status_color">#48888888</color>
+
+    <!-- LOCKER ACTIVITY -->
+    <color name="locker_head_text_color">#ffffff</color>
+    <color name="locker_overlay">#48333333</color>
+    <color name="patternview_background">#48333333</color>
+    <color name="passwordview_button_background">#48333333</color>
+
+    <!-- PRO -->
+    <color name="item_bg">#ddd</color>
+    <color name="item_border">#ddd</color>
+    <color name="item_selected_bg">#16a085</color>
+    <color name="item_selected_border">#00000000</color>
+    <color name="pro_item_desc">#000</color>
+    <color name="pro_item_tit">#000</color>
+    <color name="pro_item_selected_tit">#fff</color>
+    <color name="pro_item_selected_desc">#fff</color>
+    <color name="pro_item_tit_free">#000</color>
+    <color name="pro_item_tit_ads">#000</color>
+    <color name="pro_item_tit_paid">#000</color>
+
+    <!-- Switch -->
+    <color name="switch_on_bg">#16a085</color>
+    <color name="switch_off_bg">#888</color>
+    <color name="switch_track">#333</color>
+
+    <color name="white">#ffffff</color>
+    <color name="fbutton_default_color">#0E918B</color>
+    <color name="fbutton_default_shadow_color">#ff3493c8</color>
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#0E918B</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#0E918B</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+
+
+
+    <color name ="blue_color">#0E918B</color>
+
+
+
+</resources>

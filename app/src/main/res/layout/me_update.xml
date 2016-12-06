@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#0458BA">
+
+
+            <ImageView
+                android:id="@+id/round"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/play_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <ImageView
+                android:id="@+id/roundImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/round"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="60sp"
+                android:layout_height="40sp"
+                android:text="APP"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:textColor="#008066"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="28sp"
+                android:id="@+id/textapp"
+                android:layout_toRightOf="@+id/roundImage"
+                />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="NAME"
+                android:layout_marginTop="20sp"
+                android:layout_toRightOf="@+id/textapp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                                 />
+
+            <TextView
+                android:id="@+id/swifestFileManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/roundImage"
+                android:layout_below="@+id/textapp"
+                android:layout_marginTop="8sp"
+                android:layout_marginLeft="19dp"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:text="The swiftest file manager"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/roundImage"
+                android:layout_below="@+id/swifestFileManager"
+                android:layout_marginLeft="19sp"
+                android:textSize="15dp"
+                android:text="Save Even More Space"
+                android:id="@+id/textView4" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#C20000"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="UNINSTALL"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#0E918B"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="OPEN"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/round" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/round" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/round" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/round" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clean_junk"
+            android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
